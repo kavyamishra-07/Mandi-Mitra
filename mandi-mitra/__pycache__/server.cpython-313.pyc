@@ -1,0 +1,198 @@
+ó
+    
+AØjË&  ã            
+       óD  • S r SSKrSSKrSSKrSSKJr  SSKrSSK Jr  SSK	J
+r
+  SSK
+Jr  SS K
+Jr  SSKJr  SS	KJrJr  S
+S
+KJrJrJr  S
+SKJrJr  \" \R8                  R;                  S
+S5      5      r\" \5      R@                  S-
+  r!\" SS\SS\
+" SS9S9r
+SSSSSSSS. r"\
+RG                  5       S\$4S j5       r%\
+RG                  5       SBS \&S!\S\$4S" jj5       r'\
+RG                  5       S \&S\$4S# j5       r(\
+RG                  5       S$\&S\$4S% j5       r)\
+RG                  5       SCS \&S&\*S\$4S' jj5       r+/ S(Q/ S)Q/ S*Q/ S+Q/ S,QS-.r,S.S/S0S1S2S-.r-S3\&4S4 jr.S5 r/S6 r0\
+Rc                  S7S8/S99S:\4S; j5       r2\
+Rc                  S<S=/S99S>\4S? j5       r3S@ r4\5SA:X  a  \4" 5         gg)DaK  Mandi Mitra - an Alexa+ style MCP server that helps farmers decide when to sell.
+
+One process serves:
+  /mcp        MCP server (Streamable HTTP, tools below) - connect Alexa+ or any MCP client
+  /           simulated Alexa+ voice experience (web app)
+  /api/chat   simulator backend; it talks to the MCP server over real MCP calls
+é    N)ÚPath)Ú FastMCP)ÚTransportSecuritySettings)Ú
+ClientSession)Ústreamablehttp_client)Ú Request)ÚHTMLResponseÚJSONResponseé   )ÚCROPSÚ
+load_pricesÚseries)ÚadviseÚforecastÚPORTÚ8000Ústaticz
+mandi-mitraz 0.0.0.0TF)Úenable_dns_rebinding_protection)ÚhostÚportÚstateless_httpÚ
+json_responseÚtransport_security)g33333s:@g…ëQ¸T@)gš™™™™Ù:@gÍÌÌÌÌ<T@)gfffffæ>@gffffföR@)g¸…ëQ¸6@g×£p=
+÷R@)g…ëQ¸…2@g×£p=
+wR@)g      4@gÃõ(\rR@)g\Âõ(œ<@g=
+×£pMS@) ÚkanpurÚ lucknowÚludhianaÚindoreÚpuneÚnashikÚdelhiÚreturnc            	      ór   • S[         R                  " 5        V Vs0 s H
+  u  pU SUS   0_M  
+   snn 0$ s  snn f )z:List the crops this server can give prices and advice for.ÚcropsÚshelf_life_daysÚshelf)r   Úitems)ÚcÚvs     ÚUC:\Users\mishr\OneDrive\Desktop\mandi-mitra-project\mandi-mitra\mandi_mitra\server.pyÚ
+list_cropsr*      s8   € ð 
+ÄUÇ[Â[Ä]ÔSÂ]¹T¸QaÐ+¨Q¨w©ZÐ8Ò8Á]ÒSÐ
+TÐTùÓSs   š3ÚcropÚdaysc                 ó:  • U R                  5       n U [        ;  a  SU  S3[        [        5      S.$ [         [	        5       U 5      R
+                  [
+        S[        US5      5      5      nUR                  S   UR                  S    -
+  S-
+  S	-  nU [        [        UR                  S   5      5      [        [        U5      S5      [        U5      UR                  5        VVs/ s H+  u  pEUR                  S
+5      [        [        U5      5      S
+.PM-  
+   snnS.$ s  snnf )
+zJRecent mandi price trend (Rs per quintal) for a crop over the last N days.úunknown crop 'Ú'©ÚerrorÚ	supportedé    éx   éÿÿÿÿr   r
+   éd   z%Y-%m-%d)ÚdateÚprice)r+   ÚtodayÚ
+change_pctr,   Ú history)Úlowerr   Úlistr   r
+   ÚtailÚmaxÚminÚilocÚroundÚfloatÚlenr&   Ústrftime)r+   r,   ÚsÚchangeÚdÚps         r)   Úget_price_trendrJ   %   só   € ð :‰:‹<€DØ 
+”5Ó Ø)¨$¨¨qÐ1ÄÄUÃ
+ÑLÐLÜŒ{‹}˜dÓ#×(Ñ(¬¨Q´°D¸#³Ó)?Ó@€AØf‰fR‰j˜1Ÿ6™6 !™9Ñ$ qÑ(¨CÑ
+/€FØ¤5¬¨q¯v©v°b©zÓ):Ó#;Ì5ÔQVÐW]ÓQ^Ð`aÓKbÜ˜“FÐop×ovÑovÔoxÔ'yÒoxÑgkÐgh°·±¸JÓ1GÔRWÔX]Ð^_ÓX`ÓRaÔ(bÑoxÒ'yñ{ð {ùÛ'ys   Ã2Dc                 óx   • U R                  5       n U [        ;   a
+  [        U 5      $ SU  S3[         [        5      S.$ )zQML forecast of the next 14 days of mandi prices, with the model's held-out error.r.   r/   r0   )r<   r   r   r=   )r+   s    r)   Úforecast_pricerL   1   s:   € ð :‰:‹<€DØ!¤U›]Œ8D‹>Ðm¸NÈ4È&ÐPQÐ:RÔaeÔfkÓalÑ0mÐmó    Úcityc           	   ƒ   ó  #   • U R                  5       nU[        ;  a  SU  S3[        [        5      S.$ [        U   u  p# [        R                  " SS9 ISh  v•N nUR
+                  S X#SS	S
+.S
+9I Sh  v•N nUR
+                  5       S   nSSS5      ISh  v•N   WS
+    V s/ s H  n [        U S5      PM  
+   nn XUS   [        U5      S:¬  SS.$  Nx N^ N=! , ISh  v•N  (       d  f       NR= fs  sn f ! [          a	    U SSS.s $ f = f7f)zY3-day rain outlook for a city (Open-Meteo, no API key). Falls back gracefully if offline.zunknown city 'r/   r0   é   )Ú timeoutNz&https://api.open-meteo.com/v1/forecastz$precipitation_sum,temperature_2m_maxé   )ÚlatitudeÚ	longitudeÚdailyÚ
+forecast_days)ÚparamsrU   Úprecipitation_sumr
+   Útemperature_2m_maxé
+   z
+open-meteo)rN   Ú rain_mmÚ
+max_temp_cÚ
+rain_expectedÚsourceFÚ
+unavailable)rN   r]   r^   )
+r<   ÚCITIESr=   ÚhttpxÚ
+AsyncClientÚgetÚjsonrB   r?   Ú	Exception)	rN   ÚkeyÚlatÚlonr'   ÚrrH   ÚxÚrains	            r)   Ú
+get_weatherrl   8   s$  é € ð 
+*‰*‹,€CØ 
+”&Ó Ø)¨$¨¨qÐ1ÄÄVÃÑMÐMÜc‰{H€CðOÜ×$Ò$¨Q×/Ò/°1Ø—e‘eÐDØÐ<bÐuvñNxeð y÷ yˆAà—‘“˜Ñ!ˆA÷  0×/ð &'Ð':Ò%;Ó<Ò%; ”a˜–
+Ñ%;ˆÐ<Ø¸QÐ?SÑ=TÔgjÐkoÓgpÐtvÑgvð  COñ  Pð  	Pñ
+ 0ñy÷ 0×/×/Ð/üò =øä
+ó OØ¨uÀ
+ÑNÒNðOüsŽ   ‚<D
+¿C5 ÁCÁC5 ÁCÁ3CÁ4CÂ
+
+C5 ÂCÂ
+C5 Â"C0Â8C5 ÃD
+ÃC5 ÃCÃC5 ÃC- ÃCÃC- Ã)C5 Ã5DÄD
+Ä DÄD
+r]   c                 óx   • U R                  5       n U [        ;   a
+  [        X5      $ SU  S3[         [        5      S.$ )z`Recommend selling now or waiting, using the price forecast, the crop's shelf life and rain risk.r.   r/   r0   )r<   r   r   r=   ©r+   r]   s     r)   Úsell_or_wait_advicero   J   s=   € ð :‰:‹<€DØ*.´%«-Œ6$Ó
+&ÐzÈÐX\ÐW]Ð]^ÐG_ÔnrÔsxÓnyÑ=zÐzrM   )ÚwheatÚgehuÚgehunõ   à¤—à¥‡à¤¹à¥‚à¤‚u   à¤—à¥‡à¤¹à¥‚à¤)ÚriceÚpaddyÚchawalÚdhanu   à¤šà¤¾à¤µà¤²õ	   à¤§à¤¾à¤¨)ÚtomatoÚ tamatarõ   à¤Ÿà¤®à¤¾à¤Ÿà¤°)ÚpotatoÚalooÚaluõ	   à¤†à¤²à¥‚)ÚonionÚpyazÚpyaazõ   à¤ªà¥à¤¯à¤¾à¤œ)rp   rt   ry   r|   r€   rs   rx   r{   r   rƒ   Útextc           	      ó  ^• U R                  5       m[        U4S j[        R                   5        5       S 5      n[        U4S j[         5       S5      n[
+        U4S jS 5       5      (       a  SnOv[
+        U4S  jS 5       5      (       a  S	nOY[
+        U4S
+ jS
+ 5       5      (       a  SnO<[
+        U4S
+ jS 5       5      (       a  SnO[
+        U4S jS 5       5      (       a  SnOSnX1U[
+        [        R                  " SU 5      5      4$ )Nc              3   ód   >#   • U  H%  u  p[        U4S  jU 5       5      (       d  M!  Uv •  M'  
+   g7f)c              3   ó,   >#   • U  H	  oT;   v •  M
+  
+   g 7f©N© ©Ú.0ÚkÚts     €r)   Ú	<genexpr>Ú"parse.<locals>.<genexpr>.<genexpr>[   s   øé € Ð7KÊÀ1¸Q¾Êùó   ƒN)Úany)r‹   r'   Úksr   s      €r)   rŽ   Úparse.<locals>.<genexpr>[   s$   øé € ÐLÒ 0‘uq´CÔ7KÉÓ7K×4K—‘Ò 0ùs   ƒ 0§	0c              3   ó6   >#   • U  H  oT;   d  M
+  Uv •  M  
+   g 7frˆ   r‰   )r‹   r'   r   s     €r)   rŽ   r“   \   s   øé € Ð-šFq¨1¡f—‘šFùs   ƒ		r   c              3   ó,   >#   • U  H	  oT;   v •  M
+  
+   g 7frˆ   r‰   rŠ   s     €r)   rŽ   r“   ]   s   øé € Ð
+fÒeaŽ6Òeùr   )Ú weatherrk   Úmausamu   à¤®à¥Œà¤¸à¤®u   à¤¬à¤¾à¤°à¤¿à¤¶Úbarishr–   c              3   ó,   >#   • U  H	  oT;   v •  M
+  
+   g 7frˆ   r‰   rŠ   s     €r)   rŽ   r“   _   s   øé € ÐMÒL˜!ŽVÒLùr   )Útrendr;   Úpastu   à¤ªà¤¿à¤›à¤²à¥‡rš   c              3   ó,   >#   • U  H	  oT;   v •  M
+  
+   g 7frˆ   r‰   rŠ   s     €r)   rŽ   r“   a   s   øé € ð  
+dò  c˜!ŽVò  cùr   )ÚsellÚwaitÚbechu	   à¤¬à¥‡à¤šu	   à¤°à¥à¤•u	   à¤°à¥‹à¤•ÚrukÚrokuÚbechuÚwhenÚkabu   à¤•à¤¬ÚshouldÚ chahiyeÚadvicec              3   ó,   >#   • U  H	  oT;   v •  M
+  
+   g 7frˆ   r‰   rŠ   s     €r)   rŽ   r“   c   s   øé € Ð`Ò_˜!ŽVÒ_ùr   )r   Ú predictÚnextu	   à¤†à¤—à¥‡u   à¤…à¤¨à¥à¤®à¤¾à¤¨r   c              3   ó,   >#   • U  H	  oT;   v •  M
+  
+   g 7frˆ   r‰   rŠ   s     €r)   rŽ   r“   e   s   øé € ÐjÒi˜!ŽVÒiùr   ) r8   ÚrateÚbhavÚbhaavu	   à¤­à¤¾à¤µu	   à¤¦à¤¾à¤®u   à¤•à¥€à¤®à¤¤r8   Úhelpu	   [à¤€-à¥¿])	r<   rª   ÚKEYWORDSr&   r`   r‘   ÚboolÚreÚsearch)r„   r+   rN   Úintentr   s       @r)   Úparserµ   Y   sÞ   ø€ Ø
+‰
+‹€AÜ
+ÔL¤§¡Ô 0ÓLÈdÓ
+S€DÜ
+Ô-FÓ-¨xÓ
+8€DÜ 
+Ô
+fÑeÓ
+f× fÑ fØ‰Ü	ÔMÑLÓM×	MÑ	MØ‰Ü	ô  
+dñ  có  
+d÷  
+dñ  
+dØ‰Ü	Ô`Ñ_Ó`×	`Ñ	`Ø‰Ü	ÔjÑiÓj×	jÑ	jØ‰àˆØ
+˜œt¤B§I¢IÐ.?ÀÓ$FÓGÐ
+GÐGrM   c              ƒ   óê   #   • U R                  X5      I S h  v•N nUR                  =(       d-    [        R                  " UR                  S   R
+                  5      nUR
+                  XS.5        U$  NY7f)Nr   )ÚtoolÚargs) Ú	call_toolÚstructuredContentrd   ÚloadsÚ contentr„   Úappend)Ú sessionÚnamer¸   ÚtraceÚresÚdatas         r)   ÚcallrÃ   l   sX   é € Ø×!Ñ! $Ó-×
+-€CØ
+×
+ Ñ
+ ×
+C¤D§J¢J¨s¯{©{¸1©~×/BÑ/BÓ$C€DØ	‡LL˜$Ñ-Ô.Ø
+€Kñ  
+.ùs   ‚A3—A1˜AA3c           	      óD  • U(       a  U(       a	  [         U   OUnU S:X  a,  U(       a  SU SUS    S3$ UR                  5        SUS    S 3$ U S:X  aK  US	   S
+:¼  a  S
+OSnU(       a  S
+US    SU S[        US	   5       SU S3	$ SUS    SU SUS	   S SUS    S3	$ U S:X  a-  US   S   nU(       a  SU SUS    S3$ SU SUS    SUS     S!3 $ U S":X  aK  US#   S$:X  a*  U(       a  U S%US&    S'US(    S)3$ S*U S+US(    S,US&    S-3 $ U(       a  U S.3$ S/U S0US1    S-3$ g2)3Nr8   u    à¤†à¤œ u    à¤•à¤¾ à¤­à¤¾à¤µ r9   u@    à¤°à¥à¤ªà¤¯à¥‡ à¤ªà¥à¤°à¤¤à¤¿ à¤•à¥à¤µà¤¿à¤‚à¤Ÿà¤² à¤¹à¥ˆà¥¤z is selling at z rupees per quintal today.rš   r:   r   u   à¤¬à¤¢à¤¼à¤¾u	   à¤˜à¤Ÿà¤¾u   à¤ªà¤¿à¤›à¤²à¥‡ r,   u    à¤¦à¤¿à¤¨à¥‹à¤‚ à¤®à¥‡à¤‚ u    à¤ªà¥à¤°à¤¤à¤¿à¤¶à¤¤ u   à¥¤zOver the last z  days, z  moved z+.1fz %, now z rupees per quintal.r   r5   u>   à¤®à¥‰à¤¡à¤² à¤•à¥‡ à¤…à¤¨à¥à¤¸à¤¾à¤° 14 à¤¦à¤¿à¤¨ à¤¬à¤¾à¤¦ u    à¤•à¤¾ à¤­à¤¾à¤µ à¤•à¤°à¥€à¤¬ u     à¤°à¥à¤ªà¤¯à¥‡ à¤¹à¥‹à¤—à¤¾à¥¤zMy model expects z near z7 rupees per quintal in 14 days (7-day test error about Úholdout_7day_error_pctz%).r§   Úactionrž   u    à¤…à¤­à¥€ à¤°à¥‹à¤•à¥‡à¤‚à¥¤ Ú	best_dateu    à¤¤à¤• à¤­à¤¾à¤µ Úexpected_gain_pctuJ    à¤ªà¥à¤°à¤¤à¤¿à¤¶à¤¤ à¤¬à¤¢à¤¼à¤¨à¥‡ à¤•à¥€ à¤‰à¤®à¥à¤®à¥€à¤¦ à¤¹à¥ˆà¥¤z
+Wait on your z. I expect about z
+% more by Ú.uv    à¤…à¤­à¥€ à¤¬à¥‡à¤š à¤¦à¥‡à¤‚à¥¤ à¤†à¤—à¥‡ à¤¬à¤¡à¤¼à¥€ à¤¬à¤¢à¤¼à¤¤ à¤•à¥€ à¤‰à¤®à¥à¤®à¥€à¤¦ à¤¨à¤¹à¥€à¤‚ à¤¹à¥ˆà¥¤z
+Sell your z now: ÚreasonÚ )ÚNAMES_HIÚtitleÚabs) r´   r+   ÚhirÂ   r'   rH   Úlasts           r)   Ú
+reply_textrÑ   s   sÄ  € Þ¦ŒŠ¨4€AØ 
+Ó ö CE'˜!˜Ð.¨t°G©}¨oÐ=}Ð~ð  	Rð  NO÷  NUñ  NUó  NWð  MXð  Xgð  hlð  mtñ  huð  gvð  vPð  KQð  	RØ 
+Ó Ø" <Ñ0°AÓ5‰N¸;ˆö \^Ð" 4¨¡< .Ð0KÈAÈ3ÐN`ÔadÐeiÐjvÑewÓaxÐ`yð  zQð  RSð  QTð  TWð  Xð 	EØ   f¡ ¨g°a°S¸ ÀÀ\Ñ@RÐSWÐ?XÐX_Ð`dÐelÑ`mÐ_nð  oCð  Dð	Eà 
+Ó ØJÑ Ñ#ˆö giÐPÐQRÐPSÐSrÐswÐxñ  tAð  sBð  Bbð  cð 	XØ# A 3 f¨T°'©]¨OÐ;rÐswð  yQñ  tRð  sSð  SVð  Wð	Xà 
+Ó Ø
+‰>˜VÓ
+#ö GIqcÐ7¸¸[Ñ8IÐ7JÐJ\Ð]aÐbuÑ]vÐ\wð  xBð  Cð 
+sØ# A 3Ð&7¸Ð=PÑ8QÐ7RÐR\Ð]aÐbmÑ]nÐ\oÐopÐqð
+sö QS1#ð  Lð  Mð  	Að  [eð  fgð  ehð  hnð  osð  t|ñ  o}ð  n~ð  ~ð  Y@ð  	AØ
+
+rM   Ú/ÚGET)Ú methodsÚ_c              ƒ   óH   #   • [        [        S-
+  R                  SS95      $ 7f)Nz
+index.htmlzutf-8)Úencoding)r	   ÚSTATICÚ	read_text)rÕ   s    r)   ÚindexrÚ   ‡   s#   é € ä
+œ ,Ñ.×9Ñ9À7Ð9ÐKÓ
+LÐLùs   ‚ "z	/api/chatÚPOSTÚ requestc              ƒ   ób  #   • U R                  5       I S h  v•N R                  SS5      n[        U5      u  p#pEUS:X  d
+  US:w  a!  U(       d  U(       a  SOSn[         U/ US .5      $ / S S p˜n [	        S[
+         S	35       IS h  v•N u  p«n[
+        X«5       IS h  v•N n
+U
+R                  5       I S h  v•N   US:X  aš  [        U
+S
+S
+U0U 5      I S h  v•N nUR                  S5      nU(       a
+  U(       a  S
+O0SO.U(       a  SUR                  5        S3OSUR                  5        S3n[         XgUS .5      sS S S 5      IS h  v•N   sS S S 5      IS h  v•N   $ US:X  aZ  [        U
+S
+S
+U0U 5      I S h  v•N n[        U
+SU[        UR                  S5      5      S.U 5      I S h  v•N nUS   nUS   US   S.n	OgUS:X  a  [        U
+SSU0U 5      I S h  v•N nUS   nOCUS:X  a  [        U
+SUSS.U 5      I S h  v•N nUS    nO[        U
+SUS!S.U 5      I S h  v•N nUS    nS S S 5      IS h  v•N   S S S 5      IS h  v•N   [         [        X#UW5      XxX“US".5      $  GNB GNÙ GNÅ GN° GN• GN( GN Ný NÎ N¡ N~ Na NN! , IS h  v•N  (       d  f       Nc= f NZ! , IS h  v•N  (       d  f       No= f7f)#Nr„   rË   r¯   r–   uÏ   à¤†à¤ª à¤—à¥‡à¤¹à¥‚à¤‚, à¤§à¤¾à¤¨, à¤Ÿà¤®à¤¾à¤Ÿà¤°, à¤†à¤²à¥‚ à¤¯à¤¾ à¤ªà¥à¤¯à¤¾à¤œ à¤•à¤¾ à¤­à¤¾à¤µ à¤ªà¥‚à¤› à¤¸à¤•à¤¤à¥‡ à¤¹à¥ˆà¤‚, à¤œà¥ˆà¤¸à¥‡: 'à¤Ÿà¤®à¤¾à¤Ÿà¤° à¤¬à¥‡à¤šà¥‚à¤‚ à¤¯à¤¾ à¤°à¥à¤•à¥‚à¤‚?'zXAsk me about wheat, rice, tomato, potato or onion. Try: 'Should I sell my tomatoes now?')ÚreplyrÀ   rÏ   zhttp://127.0.0.1:ú/mcprl   rN   r]   u[   à¤¬à¤¾à¤°à¤¿à¤¶ à¤•à¥€ à¤¸à¤‚à¤­à¤¾à¤µà¤¨à¤¾ à¤¹à¥ˆ, à¤«à¤¸à¤² à¤¢à¤•à¤•à¤° à¤°à¤–à¥‡à¤‚à¥¤ua   à¤…à¤—à¤²à¥‡ à¤¤à¥€à¤¨ à¤¦à¤¿à¤¨ à¤¬à¤¡à¤¼à¥€ à¤¬à¤¾à¤°à¤¿à¤¶ à¤¨à¤¹à¥€à¤‚ à¤¦à¤¿à¤– à¤°à¤¹à¥€à¥¤zHeavy rain is possible near z( in the next 3 days. Cover your produce.zNo heavy rain expected near z for 3 days.r§   ro   rn   r   rÆ   rÊ   )rÆ   rÊ   rL   r+   rš   rJ   é   )r+   r,   r;   r3   )rÞ   rÀ   r   Úcardr+   rÏ   )rd   rc   rµ   r
+   r    r   r   Ú
+initializerÃ   rÍ   r±   rÑ   )rÜ   r„   r´   r+   rN   rÏ   ÚmsgrÀ   Ú
+series_outrá   ri   ÚwrÕ   r¾   rH   rk   Úw_rÂ   s                     r)   Úchatrç   Œ   sð  é € à—,‘,“.× ×
+%Ñ
+% f¨bÓ
+1€DÜ" 4›[Ñ€F$Ø 
+Ó ˜F iÓ/¾ö egñ  aØið 	ä c°B¸bÑAÓBÐBØ  $¨t€EÜ$Ð'8¼¸¸dÐ%C×DÔDÉ	ÈÈqÜ  ×&Ô&¨'Ø×$Ñ$Ó&×&Ð&Ø˜Ó"Ü˜w¨
+¸À°~ÀuÓM×MØ—u‘u˜_Ó-ö lnÖy}Ñuñ  DgÞquÐ6°t·z±z³|°nÐDlÑmð  ~Zð  [_÷  [eñ  [eó  [gð  Zhð  htð  |uð ä#¨cÈÑ$LÓM÷ '×&Ð&÷ E×DÑDð ˜Ó!Ü  ¨¸À¸ÈÓN×NÜ! 'Ð+@È4ÔbfÐgi×gmÑgmÐn}Óg~Óbñ  CAð  CHó  I÷  IØ! *Ñ-
+ÀÀhÁÐ[_Ð`hÑ[iÑ6j©tØ˜:Ó%Ü! 'Ð+;¸fÀd¸^ÈUÓS×SÐbfÐgqÑbrÑU_Ø˜7Ó"Ü! 'Ð+<ÀtÐUWÑ>XÐZ_Ó`×`ÐosÐt}Ño~Ñblä! 'Ð+<ÀtÐUVÑ>WÐY^Ó_×_Ø! )™_
+÷% '×&÷ E×Dô( ¤*¨V¸2¸tÓ"DÈuÐtxð  OQñ  Ró  Sð  Sò7 
+!ò EÚ&Ú&âMò  'ò Eñ Oñ Iñ Tá`á_÷# '×&×&Ð&ú÷ E×D×DÐDüsU  ‚J/–I—A+J/ÂIÂJ/ÂJÂIÂJÂI9Â1I!Â2I9ÃI$ÃA#I9Ä3JÄ?I'Å JÅJ/ÅI*ÅJ/ÅI9Å/I-Å00I9Æ I/Æ!.I9ÇI1Ç$I9Ç4I3Ç5I9ÈI5È	I9È
+JÈ(I7È)JÈ-
+J/È8JÈ9 J/ÉJ/ÉJÉ!I9É$I9É'JÉ*J/É-I9É/I9É1I9É3I9É5I9É7JÉ9J	É?JÊ J	Ê JÊJ/ÊJ, ÊJÊJ, Ê( J/c                   ó^   • [        S[         S[         S35        [        R                   SS9  g )Nz/Mandi Mitra running: web demo http://localhost:z$/  |  MCP endpoint http://localhost:rß   zstreamable-http)Ú	transport)Úprintr   ÚmcpÚrunr‰   rM   r)   Úmainrí   ¬   s-   € Ü	Ð;¼D¸6ÐAeÔfjÐekÐkoÐ
+pÔqÜ ‡GGÐ'€GÒ(rM   Ú__main__)rà   )F)6Ú __doc__rd   Úosr²   Ú pathlibr   ra   Úmcp.server.fastmcpr   Úmcp.server.transport_securityr   rë   r   Úmcp.client.streamable_httpr    Ústarlette.requestsr   Ústarlette.responsesr	   r
+   rÂ   r   r
+   r   Úmodelr   r   ÚintÚ environrc   r   Ú__file__ÚparentrØ   r`   r·   Údictr*   ÚstrrJ   rL   rl   r±   ro   r°   rÌ   rµ   rÃ   rÑ   Úcustom_routerÚ   rç   rí   Ú__name__r‰   rM   r)   Ú<module>r      sL  ðñ÷ Ó Ý Û Ý &Ý CÝ Ý <Ý &ß :ç ,Ñ ,ß #á 
+ˆ2:‰:>‰>˜& &Ó
+)Ó *€Ù	
+ˆh‹×	Ñ	 Ñ	)€á
+ˆm )°$ÀtÐ[_Ù!:Ð[`Ñ!añ c€ð #¨~È>Ø"¨NÀnÐ_mñ
+o€ð ‡ƒðUDó Uó ðUð
+ ‡ƒñ{˜#ð { Sð {°$ô {ó ð{ð ‡ƒðn˜ð n ó nó ðnð ‡ƒðO˜Cð O Dó Oó ðOð" ‡ƒñ{˜cð {°$ð {À4ô {ó ð{ò Nò  XXÚ6ÒBhò  tañ€ð '°
+ÐGXÐdoð  {Lñ  M€ðHô Hò&òð( ×Ñ# ˜wÐÐ'ðM7ó Mó (ðMð ×Ñ+¨ xÐÐ0ðS˜ ó Só 1ðSò>)ð
+ ˆzÓÙ…Fð rM   
