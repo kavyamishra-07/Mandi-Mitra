@@ -1,0 +1,97 @@
+ó
+    
+AØjú   ã                   óf  • S r SSKJr  SSKrSSKr\" \ 5      R                  5       R                  R                  S-
+  S-
+  r
+\
+" SS SS	S
+S
+9\
+" SS
+SS	S
+S
+9\
+" SSSSSS
+9\
+" SSSSSS
+9\
+" SSSSSS
+9S.rS\R                  4S jrS\R                  4S  jrS!\R                  S"\S\R"                  4S# jrg)$a   Price data loader.
+
+Uses data/prices.csv (columns: date,crop,modal_price in Rs/quintal) if present.
+Otherwise generates a clearly-labelled SYNTHETIC sample dataset with realistic
+seasonality so the project runs offline. Drop a real Agmarknet export in
+data/prices.csv to use real prices.
+é    )ÚPathNÚdataz
+prices.csvi`	  g¸…ëQ¸®?éx   gü©ñÒMbp?é´   )ÚbaseÚampÚpeak_doyÚnoiseÚshelfiü  çš™™™™™©?é<   i   gÍÌÌÌÌÌÜ?é¾   g¸…ëQ¸ž?é   iÜ  g      Ð?iO  gú~j¼t“ˆ?iÐ   gffffffÖ?i^  g¸…ëQ¸Ž?é-   )ÚwheatÚriceÚtomatoÚpotatoÚonionÚreturnc            
+      ó  • [         R                  R                  S5      n [        R                  " SSSS9n/ n[
+        R
+                  5        GH$  u  p4UR                  R                  nUS   [         R                  " S [         R                  -  XTS   -
+  -  S	-
+  5      -  nS
+[         R                  " [        U5      5      S	-
+  -  n [         R                  " U R                  S
+US   [        U5      5      5      nU[         R                  " U[         R                   " S
+5      S
+-
+  SS9-  nUS   SU-   U -   U-   -  n	UR#                  [        R$                  " XU	R'                  S
+5      S.5      5        GM'  
+   [        R(                  " USS9$ )Né*   z
+2023-10-01z
+2026-10-20ÚD)Úfreqr   é   r	   im  r   r   r
+   r
+   Úsame)Úmoder    é   )ÚdateÚcropÚ
+modal_priceT)Úignore_index)ÚnpÚrandomÚ
+default_rngÚpdÚ
+date_rangeÚCROPSÚitemsÚ	dayofyearÚvaluesÚcosÚpiÚarangeÚlenÚcumsumÚnormalÚconvolveÚonesÚappendÚ	DataFrameÚroundÚconcat)
+ÚrngÚdaysÚrowsr    ÚcÚdoyÚseasonÚdriftÚwalkÚprices
+             ÚSC:\Users\mishr\OneDrive\Desktop\mandi-mitra-project\mandi-mitra\mandi_mitra\data.pyÚ
+_syntheticrB      s3  € Ü
+)‰)×
+Ñ
+ Ó
+#€CÜ
+
+=Š=˜ |¸#Ñ
+>€DØ
+
+€DÜ—;‘;—=‰ ˆØn‰n×#Ñ#ˆØ5‘œBŸFšF 1¤r§u¡u¡9°¸
+±mÑ0CÑ#DÀsÑ#JÓKÑKˆØœŸ	š	¤# d£)Ó,¨sÑ2Ñ3ˆÜyŠy˜Ÿ™ A q¨¡z´3°t³9Ó=Ó>ˆØ”—
+’
+˜D¤"§'¢'¨"£+°Ñ"2¸Ñ@Ñ@ˆØ&‘	˜Q ™Z¨%Ñ/°$Ñ6Ñ7ˆØ
+‰
+”B—L’L¨$ÈUÏ[É[ÐYZË^Ñ!\Ó]×^ñ !ô 9Š9T¨Ñ
+-Ð-ó    c                  ó   • [         R                  5       (       a  [        R                  " [         S/S9n O;[	        5       n [         R
+                  R
+                  SS9  U R                  [         SS9  U R                  S S/5      R                  SS9$ )	Nr   )Ú
+parse_datesT)Úexist_okF)Úindexr    )Údrop)
+Ú	DATA_PATHÚexistsr&   Úread_csvrB   ÚparentÚmkdirÚto_csvÚ
+sort_valuesÚ
+reset_index)Údfs    rA   Ú
+load_pricesrR   '   ss   € Ü × Ñ × Ñ Ü
+[Š[œ°°Ñ
+9‰ä
+‹\ˆÜ×Ñ×Ñ¨ÐÑ-Ø
+	‰	”) 5ˆ	Ñ)Ø
+
+>‰>˜6 6Ð*Ó
++×
+7Ñ
+7¸TÐ
+7Ð
+BÐBrC   rQ   r    c                 ó‚   • X R                   U:H     R                  S5      S   R                  S5      R                   5       $ )Nr   r!   r   )r    Ú	set_indexÚasfreqÚ
+interpolate)rQ   r    s     rA   ÚseriesrW   1   s7   € Ø
+
+g‰g˜‰oÑ
+×
+(Ñ
+(¨Ó
+0°Ñ
+?×
+FÑ
+FÀsÓ
+K×
+WÑ
+WÓ
+YÐYrC   )Ú __doc__Ú pathlibr   Únumpyr#   Úpandasr&   Ú__file__Ú resolverL   rI   Údictr(   r5   rB   rR   ÚstrÚSeriesrW   © rC   rA   Ú<module>rb      sÞ   ðñõ Û Û á‹N×"Ñ"Ó$×+Ñ+×2Ñ2°VÑ;¸lÑJ€	ñ ˜ $°¸EÈÑMÙ˜ $°¸EÈÑMÙ˜ $°¸DÈÑKÙ˜ $°¸EÈÑLÙ˜ $°¸EÈÑLñ
+	€ð.B—L‘Lô .ð CR—\‘\ô  CðZˆr|‰|ð Z 3ð Z¨2¯9©9õ ZrC   
